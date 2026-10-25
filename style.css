@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.b{
+     border: 2px solid green;
+     padding: 10px;
+     border-radius: 5px;
+}
+/*/*//* Common class /*//*/*/
+.btn{
+    background-color: #FFB121;
+    border: none;
+    font-size: 20px;
+    padding: 14px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.width{
+    max-width: 1420px;
+    margin: 0 auto;
+}
+
+/********* header section style **********/
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111111;
+    padding: 30px 10px 21px 10px;
+}
+.logo img{
+    width: 70px;
+    height: 68px;
+}
+.menuBar{
+    display: flex;
+    gap: 40px;
+}
+.menuBar li{
+    list-style: none;
+}
+.menuBar a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 26PX;
+    font-weight: bold;
+}
+
+/****** Hero Banner section Style ******/
+.hero-bg-banner{
+    min-height: 800px;
+    background-size: cover;
+    background-image: url('./image/bg-banner.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+}
+.hero-content{
+    text-align: center;
+    padding: 0 30px;
+}
+.hero-content p{
+    font-size: 3.5em;
+    color: #fffcfc;
+    font-weight: 400;
+}
+.hero-content button{
+    border-radius: 50px;
+    margin-top: 2rem;
+}
+
+ /******** Our Offering card section ******/
+
+ .Our-Offering{
+    background-color: rgba(202, 213, 213, 0.712);
+ }
+.Our-Offering h1{
+    color: #0C0C0C;
+    margin: 30px 0 25px 0;
+    text-align: center;
+}
+.Offer-container{
+    display: flex;
+    gap: 24px;
+    padding: 10px;
+}
+.Offer-content{
+    width: 603px;
+    height: 614px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.493);
+}
+.card{
+    padding: 20px;
+}
+.card h3{
+    font-size: 30px;
+    color: #0C0C0C;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.card p{
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.one{
+    background-image: url('./image/card1.jpg');
+    background-size: cover;
+    border-radius: 8px;
+}
+.two{
+    background-image: url('image/card2.jpg');
+    background-size: cover;
+}
+.three{
+     background-image: url('image/card3.jpg');
+    background-size: cover;
+}
+.one, .two, .three{
+    border-radius: 8px;
+}
+
+/******** About Us style *********/
+
+.about-container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.about-us h1{
+    font-weight: bold;
+    margin: 40px 0 20px 0;
+    text-align: center;
+}
+.about-container img{
+    width: 610px;
+    height: 570px;
+}
+.text h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #111111;
+    margin-bottom: 20px;
+}
+
+/********** Our Team style **********/
+
+.our-team h1{
+   text-align: center; 
+   font-weight: bold;
+   margin: 30px 0 20px 0;
+}
+.team-container{
+    display: grid;
+    display: flex;
+    gap: 24px;
+    margin-bottom: 60px;
+}
+.team-content img{
+    width: 100%;
+}
+.team-content h3{
+    font-size: 25px;
+    margin: 20px 0 5px 0;
+}
+.team-content p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/**** What Our Customers Say About Us ****/
+.Customers{
+    border: 2px solid rgba(255, 0, 0, 0.36);
+}
+.Customers h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 50px 0 100px 0;
+    text-align: center;
+}
+.Customers div{
+    justify-content: center;
+    text-align: center;
+}
+.Customers div h3{
+    font-size: 36px;
+    font-weight: bold;
+}
+.Customers div img{
+    margin: 20px 0;
+}
+.Customers div p{
+    margin-top: 20px;
+}
+.star-container{
+    display: flex;
+    padding: 0;
+}
+
+/***** Frequently asked questions *****/
+
+.asked-container{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.asked-contend h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 13px;
+    color: #262621;
+}
+.asked-contend p{
+    font-size: 20px;
+    color: #3D3D3D;
+}
+
+.questions-content{
+    display: flex;
+    gap: 20px;
+    padding: 32px;
+}
+.questions-content h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: #101828;
+}
+
+/**** Safe and Reliable Transportation ****/
+
+.transportation .container{
+    display: flex;
+    gap: 64px;
+    padding: 90px 10px;
+    align-items: center;
+}
+.transportation .container .content h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #101828;
+}
+.transportation .container .content p{
+    font-size: 24px;
+    color: #3D3D3D;
+    margin: 24px 0 60px 0;
+}
+
+/*** Contact us section style ***/
+
+.contact-container{
+    display: flex;
+    gap: 80px;
+    padding: 80px 10px;
+    justify-content: space-between;
+
+}
+.contact-content h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #111111;
+    margin-bottom: 24px;
+}
+.contact-content p{
+    color: #000000;
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+.text{
+    display: flex;
+    gap: 20px;
+}
+.information input{
+    width: 400px;
+    height: 40px;
+}
+.information p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #0C0C0C;
+    margin: 20px 0;
+}
