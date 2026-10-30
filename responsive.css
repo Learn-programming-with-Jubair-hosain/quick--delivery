@@ -1,0 +1,128 @@
+@media screen and (max-width: 576px){
+/* Header section */
+    .logo img{
+    width: 50px;
+    height: 50px;
+}
+.menuBar{
+    gap: 20px;
+}
+.btn{
+    font-size: 10px;
+    padding: 14px 20px;
+}
+.menuBar a{
+    font-size: 20PX;
+}
+.hero-content p{
+    font-size: 30px;
+}
+ .hero-bg-banner {
+        min-height: 400px;
+        background-position: center;
+    }
+
+/* Our Offering card section */
+.Offer-container{
+    flex-direction: column;
+}
+.Offer-content{
+    width: 100%;
+}
+
+/* About Us */
+.about-container img{
+    width: 100%;
+}
+.about-container{
+    flex-direction: column;
+    flex-direction: column-reverse;
+    padding: 10px;
+    gap: 10px;
+}
+
+/* Our Team */
+.team-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+    margin: 50px 0;
+}
+.team-content img{
+    width: 100%;
+}
+
+/* Customers Say About Us */
+.Customers h1{
+    font-size:30px;
+    margin: 30px 0;
+}
+.Customers div h3{
+    font-size: 20px;
+}
+
+/* Frequently asked questions */
+.asked-container{
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 50px;
+    padding: 10px;
+}
+.asked-contend h1{
+    font-size: 30px;
+}
+.questions-content{
+    padding: 15px;
+}
+
+/* Safe and Reliable Transportation */
+.transportation .container{
+    padding: 50px 10px 0 10px;
+}
+.transportation .container .content h1{
+    font-size: 25px;
+}
+.phone-icon img{
+    width: 100%;
+}
+.transportation .container .content p{
+    font-size: 18px;
+}
+
+/* Contact us section style */
+.contact-container{
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-content h1{
+    margin-bottom: 20px;
+}
+
+/* Footer Section Style */
+.foot-top{
+    display: flex;
+    justify-content: space-around;
+}
+.foot-top img{
+    width: 50px;
+    height: 50px;
+    margin-left: 0%;
+}
+.foot-top p{
+    font-size: 16px;
+}
+.foot-bottom-container{
+    margin-top: 10px;
+}
+.foot-bottom-content1, .foot-bottom-content2 a{
+    font-size: 10px;
+}
+.foot-bottom-content3 img{
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+}
+footer{
+    min-height: 100px;
+}
+}
